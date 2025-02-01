@@ -1,7 +1,8 @@
-# ejercici_1
+# ejercicio_1
 
-### main
+### main.py
 
+```phyton
 import math
 
 def temperatura(t, T0=5, Ts=40, k=0.45):
@@ -19,12 +20,11 @@ if __name__ == "__main__":
     Td = Ts - 0.5
     tiempo = tiempo_para_temp_deseada(Td)
     print(f"Tiempo para alcanzar {Td} ºC: {tiempo:.2f} horas")
+```
 
 ### Rama 1: `temperatura_horas`
 
-Esta rama contiene el cálculo de la temperatura después de 1, 5, 12 y 14 horas.
-
-
+```python
 import math
 
 def temperatura(t, T0=5, Ts=40, k=0.45):
@@ -34,12 +34,11 @@ if __name__ == "__main__":
     # Temperaturas a las 1, 5, 12 y 14 horas
     for horas in [1, 5, 12, 14]:
         print(f"Temperatura después de {horas} horas: {temperatura(horas):.2f} ºC")
-
+```
 
 ### Rama 2: `tiempo_para_temp_deseada`
 
-
-
+```phyton
 import math
 
 def tiempo_para_temp_deseada(Td, T0=5, Ts=40, k=0.45):
@@ -50,11 +49,11 @@ if __name__ == "__main__":
     Td = Ts - 0.5
     tiempo = tiempo_para_temp_deseada(Td)
     print(f"Tiempo para alcanzar {Td} ºC: {tiempo:.2f} horas")
-y
+```
 
 ### Rama 3: `funciones_generales`
 
-
+```python
 import math
 
 def temperatura(t, T0=5, Ts=40, k=0.45):
@@ -72,5 +71,5 @@ if __name__ == "__main__":
     Td = Ts - 0.5
     tiempo = tiempo_para_temp_deseada(Td)
     print(f"Tiempo para alcanzar {Td} ºC: {tiempo:.2f} horas")
-
+```
 
