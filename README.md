@@ -2,7 +2,7 @@
 
 ### main.py
 
-```phyton
+```python
 import math
 
 def temperatura(t, T0=5, Ts=40, k=0.45):
@@ -38,7 +38,7 @@ if __name__ == "__main__":
 
 ### Rama 2: `tiempo_para_temp_deseada`
 
-```phyton
+```python
 import math
 
 def tiempo_para_temp_deseada(Td, T0=5, Ts=40, k=0.45):
